@@ -1,0 +1,10 @@
+h1 {
+  font-size: 250%;
+  color: pink;
+}
+
+footer {
+  width: 100%;
+  height: 110px;
+  bottom: 0px;
+}

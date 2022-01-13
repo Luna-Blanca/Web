@@ -1,0 +1,17 @@
+console.log('\n');
+console.log('------------------------------------------------');
+console.log('Brackets 단축키 알림');
+console.log('01. Ctrl + / : 선택하고자 하는 태그의 전체를 주석처리 및 해제');
+console.log('02. Ctrl + Shift + / : 클릭한 공간에 주석태그 생성 및 해제');
+console.log('03. Ctrl + D : 커서가 위치한 태그를 아래 행으로 그래도 복사');
+console.log('04. Ctrl + Shift + D : 커서가 위치한 행 삭제');
+console.log('05. Ctrl + Shift + ↑ : 커서가 위치한 행 위로 이동');
+console.log('06. Ctrl + Shift + ↓ : 커서가 위치한 행 아래로 이동');
+console.log('07. Ctrl + Shift + L : "Beautify" 플러그인이 설치된 경우, 코드 자동 정렬');
+console.log('08. Ctrl + Space : 코드 힌트 보기 (이미지 경로 설정 쉬움)');
+console.log('09. Ctrl + Shift + Space : 파라메터 정보 보기');
+console.log('10. Ctrl + A : 전체선책');
+console.log('11. Ctrl + L : 커서가 위치한 행 한줄 선택');
+console.log('12. Ctrl + [+] : 폰트 키우기');
+console.log('13. Ctrl + [-] : 폰트 줄이기');
+console.log('14. Ctrl + 0 : 폰트 초기화');

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	li {
+		background:#f2f2f2;
+	}
+	/* JavaScript 배경색 hotpink */
+	li:nth-child(4) {
+		background:hotpink;
+	}
+	/* 첫번째 li 태그에 글자색을 빨강색 
+	li:nth-child(1) {
+		color:red;
+	}*/
+	li:first-child, li:last-child {
+		color:red;
+	}
+	
+	/* div5 태그의 보더 색상을 파랑색 */
+	div:last-child {
+		border:1px solid blue;
+	}
+	
+	/* div3 태그의 글자크기는 25px, 글자색은 초록색 */
+	div.n div:nth-child(3) {
+		font-size:25px;
+		color:green;
+	}
+</style>
+</head>
+<body>
+	<h1>nth-child</h1>
+	<ul>
+		<li>Java</li>
+		<li>Html</li>
+		<li>Css</li>
+		<li>JavaScript</li>
+		<li>JQuery</li>
+	</ul>
+	<div class="n">
+		<div>div1</div>
+		<div>div2</div>
+		<div>div3</div>
+		<div>div4</div>
+		<div>div5</div>
+	</div>
+</body>
+</html>

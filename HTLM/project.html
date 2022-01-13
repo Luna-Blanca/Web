@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h2 {
+      font-family: "FORTE";
+      src: url("HTLM\FORTE.TTF") format("truetype");
+      font-size: 300%;
+      font-style: normal;
+      font-weight: normal;
+    }
+    h6 {
+      font-style: italic;
+      font-size: 70%;
+      color: black;
+    }
+    
+  </style>
+</head>
+<body>
+  <div>
+    <h2>Discover your life, <br>Travel where you want.</h2>
+    <h6>Where you going?</h6>
+</div>
+  <fieldset>
+    <h4>LOCATION</h4>
+    <div class="suggestion-box">
+      <div class="suggestion-input" id="suggestion-input">
+        <input type="text" id="suggestions" placeholder="Search any country...">
+        <span class="loader"></span>
+        <input type="reset" value="RESET">
+      </div>
+      <div class="suggestion-list" id="suggestion-list"></div>
+    </div>
+  </fieldset>
+  <fieldset>
+    <h4>GUEST</h4>
+    <input type="number" min="2" max="10" step="1" value="2"> Persons
+  </fieldset>
+  <fieldset>
+    <h4>CHECK IN</h4>
+    <input type="date" min="2021-12-01" max="2021-12-31" step="1" value="2021-12-09">
+  </fieldset>
+  <fieldset>
+    <h4>CHECK OUT</h4>
+    <input type="date" min="2021-12-01-" max="2021-12-31" step="1" value="2021-12-10">
+  </fieldset>
+</body>
+</html>

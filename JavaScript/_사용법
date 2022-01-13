@@ -1,0 +1,12 @@
+JavaScript 사용법
+
+program code를 돌리는 방법
+1. 콘솔(CDM)을 이용해서 돌린다.
+    파일 위치로 이동
+    "node" 입력
+    "code 이름" 입력
+2. node.js를 이용
+    code를 우클릭
+    "Add to Node.js runner" 클릭
+    하단 "npm run" 클릭
+    돌릴려는 "code 이름" 입력
